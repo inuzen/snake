@@ -1,0 +1,39 @@
+.gameOverText {
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell.snakeHead {
+    background-color: blue;
+}
+
+.cell.snakePart {
+    background-color: black;
+}
+
+.cell.snakeHead:after {
+    background-color: blue;
+}
+.cell:after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.food:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+}

@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 50px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.fieldWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.controlsWrapper {
+    height: 100%;
+    margin: 20px;
+}

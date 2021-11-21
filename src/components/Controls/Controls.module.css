@@ -1,0 +1,68 @@
+.conrolsWrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.controlsRow {
+    width: 300px;
+    margin: 15px 0;
+}
+
+/* inputs */
+.inputWrapper {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputWrapper .hint {
+    font-size: 12;
+    color: #c58000;
+    margin-top: 5px;
+}
+
+.inputWrapper span {
+    margin-bottom: 5px;
+}
+
+.inputWrapper input {
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* button */
+.startButton {
+    background: #79ce40;
+    border-radius: 11px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: Mija, Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 34px;
+    padding: 10px 5px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+    user-select: none;
+    width: 100%;
+    border: 0;
+}
+
+.startButton:active,
+.startButton:focus {
+    border-bottom-style: none;
+    border-color: #dadada;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px inset;
+    outline: 0;
+}
+
+.startButton:disabled {
+    background: #849c74;
+    pointer-events: none;
+}
